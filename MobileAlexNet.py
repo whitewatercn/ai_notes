@@ -66,19 +66,3 @@ def mobilealexnet(num_classes):
     model = MobileAlexNet(num_classes=num_classes)
     return model                
 
-
-
-# net = AlexNet(num_classes=1000)
-# summary(net.to('cuda'), (3,224,224))
-#########################################################################################################################################
-# Total params: 62,378,344
-# Trainable params: 62,378,344
-# Non-trainable params: 0
-# ----------------------------------------------------------------
-# Input size (MB): 0.57
-# Forward/backward pass size (MB): 11.09
-# Params size (MB): 237.95
-# Estimated Total Size (MB): 249.62
-# ----------------------------------------------------------------
-# conv_parameters:  3,747,200
-# fnn_parameters:  58,631,144   93% 的参数量
